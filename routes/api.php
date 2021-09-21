@@ -1,8 +1,9 @@
 <?php
 
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Api\ProdutoController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,4 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
-});
+
+    });
+Route::get('/produtos/lista_produtos',  [ProdutoController::class, 'index'])->name('produtos_api');
+Route::post('/produtos/cadastrar',      [ProdutoController::class, 'store'])->name('produtos_create');
