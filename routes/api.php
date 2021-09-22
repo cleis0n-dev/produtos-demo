@@ -21,3 +21,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     });
 Route::get('/produtos/lista_produtos',  [ProdutoController::class, 'index'])->name('produtos_api');
 //Route::post('/produtos/cadastrar',      [ProdutoController::class, 'store'])->name('produtos_create');
+
+
+?>
