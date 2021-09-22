@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::middleware(['auth'])->group(function () {
-    // Produtos
+   //  Produtos
 
     Route::get('/produtos',                 [ProdutoController::class, 'show'])->name('produtos');
     Route::get('/produtos/lista_produtos',  [ProdutoController::class, 'show_list'])->name('produtos_list');

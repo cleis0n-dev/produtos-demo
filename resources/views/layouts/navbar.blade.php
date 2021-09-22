@@ -16,7 +16,7 @@
         <div class="d-flex">
             <div class="dropdown ">
                 <button class="btn btn-light dropdown-toggle text-secondary" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                    {{ Auth::user()->email }}
+                  @if(Auth::user() != null)  {{ Auth::user()->email }} @else Api_user @endif
                 </button>
                 <ul class="dropdown-menu dropdown-menu-primary" aria-labelledby="dropdownMenuButton2">
                   <li>
