@@ -13,4 +13,5 @@
 <p>utilizar o comando <code>composer require realrashid/sweet-alert</code> para instalar a biblioteca de alertas(sweetalert)</p>
 <p>Criar a table "produtos", no MySQL</p>
 <p><code>php artisan migrate</code></p>
+<p>Link para acessar a API: localhost/api/produtos/lista_produtos</p>
 
