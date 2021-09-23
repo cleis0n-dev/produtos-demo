@@ -7,6 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Sobre a aplicação
+<p>É uma CRUD de produtos com API</p>
+
 ## Para testar a aplicação
 
 <h3>Após clonar o repositório:</h3>
