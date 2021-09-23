@@ -9,7 +9,8 @@
 
 ## Para testar a aplicação
 
-Após clonar o repositório, utilizar o comando <code>composer require realrashid/sweet-alert</code> para instalar a biblioteca de alertas(sweetalert)
-Criar a table "produtos", no MySQL
-<code>php artisan migrate</code>
+<h3>Após clonar o repositório:</h3>
+<p>utilizar o comando <code>composer require realrashid/sweet-alert</code> para instalar a biblioteca de alertas(sweetalert)</p>
+<p>Criar a table "produtos", no MySQL</p>
+<p><code>php artisan migrate</code></p>
 
